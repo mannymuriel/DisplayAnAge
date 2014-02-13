@@ -1,0 +1,1 @@
+<?php $dob = 'YYYY-MM-DD'; $age = date_diff(date_create($dob), date_create('now'))->y; echo $age; ?>
